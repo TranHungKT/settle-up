@@ -1,3 +1,7 @@
+github.com/adam-hanna/jwt-auth/jwt v0.0.0-20210801230358-648d06fb0092 h1:y05YIK1WVC5bn+CvJ5fvVtJFBT0hj6jRrqZqDzA4mT0=
+github.com/adam-hanna/jwt-auth/jwt v0.0.0-20210801230358-648d06fb0092/go.mod h1:rRvtvEPnk302LsSfT7OXSrG+f5p91DmxUc2/BWP8Kow=
+github.com/adam-hanna/randomstrings v0.0.0-20160715001758-88fd7c52a2c7 h1:62HlqmZyGNiYN348/+z/q1Z6m/mHvKWlRzHBN6uq1CU=
+github.com/adam-hanna/randomstrings v0.0.0-20160715001758-88fd7c52a2c7/go.mod h1:Sv99nuALJEEt6XHy56tbVlXUJ2GvCgbNo99JuGpWafY=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=
 github.com/bytedance/sonic v1.9.1 h1:6iJ6NqdoxCDr6mbY8h18oSO+cShGSMRGCEo7F2h0x8s=
 github.com/bytedance/sonic v1.9.1/go.mod h1:i736AoUSYt75HyZLoJW9ERYxcy6eaN6h4BZXU064P/U=
@@ -6,6 +10,8 @@ github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 h1:qSGYFH7+jGhD
 github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311/go.mod h1:b583jCggY9gE99b6G5LEC39OIiVsWj+R97kbl5odCEk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dgrijalva/jwt-go v3.0.1-0.20160617170158-f0777076321a+incompatible h1:C9jv2OiqKdyq7v3jUJb9E46AJfmH4q+V42q9kLUOarU=
+github.com/dgrijalva/jwt-go v3.0.1-0.20160617170158-f0777076321a+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/gabriel-vasile/mimetype v1.4.2 h1:w5qFW6JKBz9Y393Y4q372O9A7cUSequkh1Q7OhCmWKU=
 github.com/gabriel-vasile/mimetype v1.4.2/go.mod h1:zApsH/mKG4w07erKIaJPFiX0Tsq9BFQgN3qGY5GnNgA=
 github.com/gin-contrib/sse v0.1.0 h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=

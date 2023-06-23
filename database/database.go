@@ -30,18 +30,18 @@ func InitDB() {
 		panic(err)
 	}
 
-	defer func() {
-		if err := client.Disconnect(context.TODO()); err != nil {
-			panic(err)
-		}
-	}()
+	// defer func() {
+	// 	if err := client.Disconnect(context.TODO()); err != nil {
+	// 		panic(err)
+	// 	}
+	// }()
 
 	mongoClient = client
 	fmt.Println("MongoDB connected")
 }
 
 func UserCollection() *mongo.Collection {
-	return getCollection("user")
+	return getCollection("users")
 }
 
 func getCollection(collectionName string) *mongo.Collection {

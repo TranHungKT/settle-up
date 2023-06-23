@@ -3,8 +3,11 @@ module github.com/TranHungKT/settle_up
 go 1.20
 
 require (
+	github.com/adam-hanna/jwt-auth/jwt v0.0.0-20210801230358-648d06fb0092 // indirect
+	github.com/adam-hanna/randomstrings v0.0.0-20160715001758-88fd7c52a2c7 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
+	github.com/dgrijalva/jwt-go v3.0.1-0.20160617170158-f0777076321a+incompatible // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.9.1 // indirect
