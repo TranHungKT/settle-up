@@ -1,16 +1,18 @@
 name: Cotinous Integration
-on: pull_request
-jobsL
+
+on: [pull_request, push]
+
+jobs:
   run_code_checks:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: 1.20
       - name: Run linting
         run: |
-          go fmt ./..
-          gi vet ./..
+          go fmt ./...
+          go vet ./...
