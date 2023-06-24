@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	database.InitDB()
 	router.InitGin()
 }
